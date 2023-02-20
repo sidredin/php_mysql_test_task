@@ -27,11 +27,14 @@ if needed!
 Then run:
 
 ```bash
-#Docker compose v1 commands
-docker-compose build 
-docker-compose up -d
-
-#Docker compose v2 commands
 docker compose build 
 docker compose up -d
 ```
+
+### Running unit tests:
+
+```bash
+docker compose exec app ./vendor/bin/phpunit tests
+```
+
+
