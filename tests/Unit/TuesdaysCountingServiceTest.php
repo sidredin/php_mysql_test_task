@@ -26,6 +26,8 @@ final class TuesdaysCountingServiceTest extends TestCase
             [['2023-02-07', '2023-02-07'], 1],
             [['2023-02-06', '2023-02-07'], 1],
             [['2023-02-07', '2023-02-08'], 1],
+            [["2023-02-28", "2022-12-28"], 9],
+            [["2023-02-28", "2022-12-27"], 10],
         ];
 
         foreach ($assertations as $key => $assertation) {
